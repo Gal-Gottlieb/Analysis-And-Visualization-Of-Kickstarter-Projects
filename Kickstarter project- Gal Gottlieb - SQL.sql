@@ -420,7 +420,7 @@ where Projectstate in ('successful','failed')
 order by country,Category ,Projectstate;
 
 /* 
-19) Giving goal levels based on year, category and subcategory to the projects between 2010 and 2017 -
+19) Project goal levels by percentiles based on year, category and subcategory for the years between 2010 and 2017 -
 Table used in Figure 2
 */
 
@@ -445,7 +445,7 @@ from kickstarter_project
 where year(Launched) not in ('2009','2018')
 order by year(Launched), Category, Subcategory, [Goal level];
 
-/* 19) In addition to categories and subcategories by year and countries, the following metrics are used:
+/* 20) In addition to categories and subcategories by year and countries, the following metrics are used:
 success ratio, average amount pledged, and average goal completion
 */
 
@@ -475,7 +475,7 @@ group by Category, Subcategory,country,year(Launched)) as q2
 on q1.Category=q2.Category and q1.Subcategory=q2.Subcategory and q1.Country=q2.Country and q1.Year=q2.Year
 order by Category,Subcategory,Country,Year;
 
-/* 20) Checking the percent of successful projects whithin projects that their state is successful or failed
+/* 21) Checking the percent of successful projects whithin projects that their state is successful or failed
 Where their goal was above 1,000$ and they launced between 2010 and 2017
 Result is used in Figure 4
 */
