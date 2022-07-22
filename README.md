@@ -1,6 +1,6 @@
 # Analysis And Visualization Of Kickstarter Projects
 
-A data analysis and visualization using Tableau and SQL of data from Kickstarter, one of the largest crowdfunding platforms.
+A data analysis and visualization using Tableau and SQL for analyzing a data set from Kickstarter, one of the largest crowdfunding platforms.
 
 
 
@@ -10,18 +10,18 @@ A description of the data columns is included in the CSV file kickstarter_projec
 
 The purpose of the project is to help Mark, a venture partner at Sequoia Capital, understand which factors make an enterprise successful in the future, so that the company can invest in successful ventures.
 
-There is a Power Point file in the repository that contains Mark's persona profile.
+A Power Point file in the repository that contains Mark's persona profile.
 
 
 
 
 The following tools were used during project preparation:
 
-1- Microsoft SQL Management Server (MSMS):
+1- Microsoft SQL Management Server (SSMS):
 
 * Data Cleaning and data management and integration (DMI)
 * Data exploration
-* Used to create more detailed tables outside of the existing ones by using queries.
+* Used to create more detailed tables outside of the existing ones by writing queries.
 A file containing the SQL script was uploaded to the repository.
 
 2- Tableau:
