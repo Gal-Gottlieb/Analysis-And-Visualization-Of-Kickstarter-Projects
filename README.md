@@ -29,5 +29,5 @@ A file containing the SQL script was uploaded to the repository
 * Used to create the data visualization
 
 Here is a link to a visualization in my Tableau Public profile:
-https://public.tableau.com/views/KickstarterProject-byGalGottlieb/KickstarterfinalDashboard?:language=en-US&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/app/profile/gal1399/viz/KickstarterProject-byGalGottlieb/KickstarterfinalDashboard
 
